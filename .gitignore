@@ -1,0 +1,22 @@
+# Ignore Virtual Env
+.venv/
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Tensorboard Logs (Too many small files)
+logs/
+
+# Ignore Model Checkpoints (To avoid hitting GitHub 100MB limit)
+# If you want to save specific models, you can force add them later.
+models/
+track_data/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+#ignore jetbrains
+.idea/
