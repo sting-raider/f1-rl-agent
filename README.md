@@ -109,3 +109,9 @@ The agent is penalized (and reset) for:
 
 **"Port Occupied"**
 *   Restart the Jupyter Kernel to kill old background threads holding Port 20777.
+
+## 🙏 Acknowledgements & Credits
+
+*   **UDP Specifications:** Special thanks to [This Repository](https://github.com/raweceek-temeletry/f1-22-udp) for providing the detailed breakdown of the F1 22 UDP packet structures and decoding logic. This documentation was essential for building the Python telemetry parser.
+*   **F1 22 Game:** Official product of EA Sports / Codemasters.
+*   **Libraries:** Built using [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) and [vgamepad](https://github.com/yannbouteiller/vgamepad).
